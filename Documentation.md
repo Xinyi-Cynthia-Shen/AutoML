@@ -18,13 +18,20 @@ Ultimately, AutoML represents a transformative approach that democratizes access
 ## Comparison Between Different Libraries
 Intro of the pros and cons of each tool:
 
+
+
+Let's look at the strengths and weaknesses of TPOT and DataRobot in AutoML.
+
+TPOT uses genetic programming to optimise entire pipelines, making it ideal for experimentation and accessible as an open-source tool. However, it can be slow on large datasets and lacks deep learning options, with no built-in deployment support.
+DataRobot, on the other hand, is a no-code platform with a drag-and-drop interface, making it beginner-friendly and offering industry-specific models and strong interpretability for regulatory needs. However, its premium pricing can be a drawback, and as a proprietary tool, it lacks transparency compared to open-source options.
+
 Comparisons of the tools:
 
-Google AutoML is very user-friendly, especially for non-experts, with a powerful cloud-based setup. However, it's costly and lacks deep customization for advanced users.
+Google AutoML is very user-friendly, especially for non-experts, with a powerful cloud-based setup. However, it's costly and lacks deep customisation for advanced users.
 H2O.ai is an open-source tool with high flexibility, making it ideal for experts who need scalability. But it can be complex for beginners and lacks an intuitive interface.
 Microsoft Azure AutoML provides end-to-end automation, perfect for enterprise use and time-series forecasting, though it's also cloud-dependent and can get pricey.
 Auto-sklearn is great for small datasets and academic projects, offering easy integration with scikit-learn. But, it’s limited in scalability and only works with traditional machine learning algorithms.
-TPOT is unique with its genetic algorithm approach, optimizing entire pipelines. However, it’s slower for large datasets and focuses only on standard algorithms.
+TPOT is unique with its genetic algorithm approach, optimising entire pipelines. However, it’s slower for large datasets and focuses only on standard algorithms.
 Lastly, DataRobot is an enterprise-grade, no-code tool that’s easy for non-technical users but comes with a premium price.
 In short, choose based on your needs: Google AutoML and DataRobot for ease, H2O and Azure for scale, and Auto-sklearn or TPOT for open-source flexibility.
 
