@@ -2,6 +2,22 @@
 
 ## Introduction 
 
+### Definition
+According to [Wikipedia's formal definition](https://en.wikipedia.org/wiki/Automated_machine_learning#:~:text=Automated%20machine%20learning%20(AutoML)%20is,combination%20of%20automation%20and%20ML), Automated Machine Learning (AutoML) is the process of automating the tasks of applying machine learning to real-world problems. So, it is a combination of automation and machine learning (ML).
+
+### Difference between AutoML and Traditional ML
+Then comes a natural question: Why do we already have a high technique - machine learning- and why do we still want to automate the process? How does auto machine learning differ from traditional machine learning? It lies in the following three points:
+- **Automation vs. Manual Effort:** AutoML automates almost every part of the workflow, while traditional ML requires manual intervention at each stage.
+- **Standardization vs. Flexibility in Deployment:** AutoML typically works well for common and standardized tasks because AutoML platforms often come with deployment options, enabling quick integration, while traditional ML allows for greater flexibility to craft custom models and requires more custom deployment strategies in specific use cases, which can involve significant DevOps resources.
+-  **Expertise and Cost:** AutoML reduces dependency on highly skilled data scientists, allowing for a smaller team on the project, while traditional ML often requires hiring specialized talent, increasing the cost of a project.
+
+### AutoML Process
+AutoML and traditional machine learning both play essential roles in the data science landscape. AutoML democratizes machine learning, making it accessible to more people and enabling faster, automated solutions for common problems. On the other hand, traditional machine learning provides flexibility and control, making it ideal for complex or unique problems that require expert intervention. The choice between the two depends on the specific use case, available resources, and the desired trade-off between speed, customization, and performance.
+1.	**Data Preparation:** This stage involves cleaning raw data by handling missing values, normalizing data, and encoding categorical variables. AutoML systems may also detect data types (e.g., numerical or categorical) and suggest suitable transformations to make the dataset machine-learning-ready.
+2.	**Feature Engineering:** AutoML feature engineering automates the process of transforming features to enhance model performance. It applies techniques like Principal Component Analysis (PCA) for dimensionality reduction and various transformations that improve feature relevance. Unlike traditional methods that rely heavily on human expertise, AutoML uses algorithms to select or create new features automatically, reducing the need for manual intervention. These optimizations are often guided by meta-learning, which leverages prior knowledge to identify useful transformations and combinations, streamlining the feature engineering process and enhancing predictive outcomes efficiently.
+3.	**Model Selection:** Multiple algorithms are tested to find the most suitable one for the task (e.g., classification or regression). AutoML platforms often perform ensemble learning, where several models are combined to improve accuracy.
+4.	**Hyperparameter Tuning:** AutoML optimizes hyperparameters automatically using techniques like grid search, Bayesian optimization, or genetic algorithms. This ensures that the selected model performs as efficiently as possible without manual intervention.
+5.	**Deployment:** Once the model is trained and validated, it can be deployed in real-world applications. AutoML systems may offer built-in deployment tools, such as APIs, and provide mechanisms to monitor model performance and detect issues like concept drift, where model performance deteriorates over time due to changing data patterns.
 
 ## Why AutoML is Important
 
@@ -46,3 +62,5 @@ Lastly, DataRobot is an enterprise-grade, no-code tool that’s easy for non-tec
 In short, choose based on your needs: Google AutoML and DataRobot for ease, H2O and Azure for scale, and Auto-sklearn or TPOT for open-source flexibility.
 
 ## Conclusion
+
+AutoML plays a transformative role in modern data science by bridging the gap between technical and non-technical users, making machine learning accessible to a broader audience. Its automation of tasks like data preparation, feature engineering, and model selection ensures faster, cost-effective solutions for common use cases. However, both businesses and individuals should choose AutoML platforms based on their specific needs, balancing user-friendliness, flexibility, and scalability. Aligning AutoML efforts with strategic goals will enhance decision-making, and exploring various platforms helps integrate these tools effectively into workflows.
